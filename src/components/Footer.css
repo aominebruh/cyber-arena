@@ -1,0 +1,4 @@
+.footer { background-color: #000; padding: 40px 0; border-top: 1px solid rgba(255,255,255,0.05); }
+.footer-content { display: flex; justify-content: space-between; align-items: center; color: var(--text-gray); font-size: 14px; }
+.footer .logo { color: white; font-size: 20px; }
+.footer a { color: var(--neon-green); text-decoration: none; }

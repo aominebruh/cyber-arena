@@ -1,0 +1,4 @@
+.gallery { padding: 100px 0; }
+.gallery-grid { display: flex; gap: 20px; }
+.gallery-img { width: 25%; height: 300px; object-fit: cover; border-radius: 12px; border: 2px solid var(--neon-green); transition: 0.3s; }
+.gallery-img:hover { transform: scale(1.03); }

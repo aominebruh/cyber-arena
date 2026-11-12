@@ -1,0 +1,8 @@
+.tournament {
+  padding: 120px 0;
+  background-size: cover;
+  background-position: center;
+}
+.tournament-content { display: flex; justify-content: space-between; align-items: center; }
+.tournament-text h2 { font-family: 'Unbounded', sans-serif; font-size: 48px; margin-bottom: 10px; }
+.tournament-text p { font-size: 18px; color: var(--text-gray); }

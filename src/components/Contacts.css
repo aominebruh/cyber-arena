@@ -1,0 +1,7 @@
+.contacts { padding: 100px 0; }
+.contacts-container { display: flex; gap: 50px; align-items: center; }
+.contacts-info { flex: 1; }
+.info-item { margin-bottom: 25px; }
+.info-item h3 { font-family: 'Unbounded', sans-serif; color: var(--neon-green); font-size: 18px; margin-bottom: 5px; }
+.info-item p { color: var(--text-gray); font-size: 16px; }
+.contacts-map { flex: 1; border-radius: 16px; overflow: hidden; border: 2px solid var(--bg-card); }

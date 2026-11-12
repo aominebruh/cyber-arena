@@ -1,0 +1,15 @@
+.header { background-color: rgba(18, 24, 38, 0.9); backdrop-filter: blur(10px); height: 80px; display: flex; align-items: center; position: fixed; width: 100%; top: 0; z-index: 100; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.header-content { display: flex; justify-content: space-between; align-items: center; width: 100%; }
+.logo { 
+  font-family: 'Unbounded', sans-serif; 
+  font-size: 24px; 
+  font-weight: 700; 
+  color: var(--text-white); /* Цвет текста */
+  text-decoration: none;    /* Убираем подчеркивание */
+  transition: 0.3s;
+}
+.logo:hover {
+  color: var(--neon-green); /* При наведении подсветится зеленым (по желанию) */
+}
+.nav a { color: var(--text-white); text-decoration: none; margin: 0 20px; font-size: 16px; transition: 0.3s; }
+.nav a:hover { color: var(--neon-green); }

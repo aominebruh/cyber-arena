@@ -1,0 +1,4 @@
+.stats { padding: 100px 0; }
+.stats-grid { display: flex; justify-content: space-around; text-align: center; }
+.stat-number { display: block; font-family: 'Unbounded', sans-serif; font-size: 64px; color: var(--neon-green); font-weight: 700; margin-bottom: 10px; }
+.stat-text { font-size: 18px; color: var(--text-gray); }

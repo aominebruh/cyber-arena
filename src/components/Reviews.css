@@ -1,0 +1,12 @@
+.reviews { padding: 100px 0; background-color: var(--bg-dark); }
+.reviews-grid { display: flex; gap: 30px; justify-content: center; }
+.review-card {
+  background-color: var(--bg-card);
+  padding: 30px;
+  border-radius: 16px;
+  width: 380px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+.review-stars { color: var(--neon-green); font-size: 20px; margin-bottom: 15px; }
+.review-text { color: var(--text-white); font-size: 16px; line-height: 1.6; margin-bottom: 20px; font-style: italic; }
+.review-author { color: var(--text-gray); font-weight: 600; }

@@ -1,0 +1,8 @@
+.tariffs { padding: 100px 0; }
+.tariffs-grid { display: flex; justify-content: center; gap: 30px; align-items: center; }
+.tariff-card { background-color: var(--bg-card); border-radius: 16px; padding: 40px 30px; width: 340px; display: flex; flex-direction: column; align-items: center; border: 2px solid transparent; transition: 0.3s; }
+.tariff-card.featured { border-color: var(--neon-green); transform: scale(1.05); box-shadow: 0 0 30px rgba(0, 255, 65, 0.1); }
+.tariff-card h3 { font-size: 20px; color: var(--text-gray); font-weight: 400; margin-bottom: 20px; }
+.tariff-price { font-family: 'Unbounded', sans-serif; font-size: 40px; font-weight: 700; margin-bottom: 30px; }
+.tariff-specs { list-style: none; margin-bottom: 40px; text-align: center; color: var(--text-gray); line-height: 1.8; }
+.tariff-card .btn { width: 100%; margin-top: auto; }
